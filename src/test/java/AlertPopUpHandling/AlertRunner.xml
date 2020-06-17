@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Alert and PopUp">
+    <test name="Alert Runner">
+        <parameter name="driverName" value="chrome"></parameter>
+        <classes>
+            <class name="AlertPopUpHandling.AlertHandlingPractice"></class>
+            <class name="AlertPopUpHandling.JavaScriptAlert"></class>
+        </classes>
+    </test>
+</suite>

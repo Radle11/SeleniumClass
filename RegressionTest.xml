@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Runner">
+    <test name="xml Test">
+        <classes>
+            <class name="SwitchingWindow.HomeWork5"></class>
+            <class name="SwitchingWindow.WindowIntro"></class>
+            <class name="iFrame.HandlingIFramesPractice"></class>
+            <class name="ActionPractice.ActionIntro"></class>
+            <class name="ActionPractice.ActionsSummaryPractice"></class>
+            <class name="ActionPractice.DragAndDropPractice"></class>
+            <class name="ActionPractice.KeyBoardFunctions"></class>
+            <class name="ActionPractice.SliderAction"></class>
+        </classes>
+    </test>
+</suite>

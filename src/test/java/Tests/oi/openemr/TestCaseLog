@@ -1,0 +1,54 @@
+Test Case 1
+Navigate to "https://demo.openemr.io/openemr"
+Enter username "admin"
+Enter password "pass"
+Click the "Belford Phil" from the list
+Validate Name
+Validate Phone Number
+Validate SSN number
+Validate external ID are matching in Home page and Patient Dashboard
+Validate DOB is displayed
+Validate age is correct according the DOB of patient
+
+Test Case 2
+Navigate to "https://demo.openemr.io/openemr"
+Enter username "admin"
+Enter password "pass"
+Click the "Belford Phil" from the list
+Click edit button for message
+Click add button
+Select "Lab Result" for Type
+Select Stone, Fred for To part in message
+Type "This is for testing" to message box
+Click Save Message button
+Validate new message displayed
+Validate active box is selected
+Validate Type is "Lab Results"
+Validate Contect has today's date
+Validate status is "New"
+Validate Updated By is equals to Billy Smith
+
+Test Case 3
+Navigate to "https://demo.openemr.io/openemr"
+Enter username "admin"
+Enter password "pass"
+Click the "Belford Phil" from the list
+Validate Amendments has text "Amendments (expand)"
+Click to Amendments
+Validate Amendments has text "Amendments (collapse)"
+Click Edit button for Amendments
+Validate "No amendment requests available" is displayed
+Validate color of the text is red
+Click Add button
+Select the date "May 23, 2020"
+Select requested by "insurance"
+Enter Request Description "insurance amendment for test"
+Selected status "Rejected"
+Enter comment "new amendment created"
+Click save button
+Validate History -> Date is equals to today's date
+Validate By Smith, Billy
+Validate status is rejected
+Validate comment is "new amendment created"
+Click list button
+Validate new amendment is displayed

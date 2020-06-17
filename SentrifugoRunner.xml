@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sentrifugo Regression Runner">
+    <test name="MaritalStatus Test">
+        <parameter name="driverName" value="chrome"></parameter>
+        <parameter name="username" value="EM01"></parameter>
+        <parameter name="password" value="sentrifugo"></parameter>
+<!--        <parameter name="maritalCode" value="SS"></parameter>-->
+<!--        <parameter name="maritalStatus" value="Single"></parameter>-->
+<!--        <parameter name="description" value="Test marital info"></parameter>-->
+        <classes>
+            <class name="Tests.com.Sentrifugo.MeritalStatusTest">
+                <methods>
+                    <include name="testA2"></include>
+                    <include name="test1"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
