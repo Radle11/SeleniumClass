@@ -37,6 +37,5 @@ public class JSExecutorIntro extends TestBase {
         je.executeScript("window.scrollBy(0,600)");
         je.executeScript("arguments[0].setAttribute('style','background:indigo,border:3px solid red');",onlineCourse);
 
-
     }
 }

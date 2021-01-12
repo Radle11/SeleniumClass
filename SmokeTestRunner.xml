@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Selenium Intro SmokeRunner"  parallel="tests" thread-count="3" >
+<suite name="Selenium Intro SmokeRunner"  parallel="tests" verbose="1" >
     <test name="TestNG Runner1">
         <parameter name="username" value="EM01"></parameter>
         <parameter name="password" value="sentrifugo"></parameter>
         <parameter name="driverName" value="chrome"></parameter>
         <classes>
             <class name="Tests.com.Sentrifugo.LogInTest"></class>
+
         </classes>
     </test>
     <test name="TestNG Runner2">
